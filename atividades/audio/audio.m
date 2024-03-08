@@ -8,7 +8,7 @@ fs = 44100; %frequência de amostragem
 nbits = 16;
 nchannel = 1;
 # leitura de um arquivo *.wav ----
-arquivo = 'teste_voz.wav';
+arquivo = 'minha_voz.wav';
 info = audioinfo(arquivo);
 disp(info);
 [audio_mix, fs_can] = audioread(arquivo);
